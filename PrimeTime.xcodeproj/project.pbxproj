@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B08DFC11D1F123600FB32BF /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B08DFC01D1F123600FB32BF /* main.storyboard */; };
+		2B08DFC41D1F135F00FB32BF /* FISPrimeTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B08DFC31D1F135F00FB32BF /* FISPrimeTimeTableViewController.m */; };
 		4D55491D1BC8520E001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D55491C1BC8520E001E3D77 /* Launch Screen.storyboard */; };
 		726811FB1923ECC5009F8F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FA1923ECC5009F8F37 /* Foundation.framework */; };
 		726811FD1923ECC5009F8F37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726811FC1923ECC5009F8F37 /* CoreGraphics.framework */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B08DFC01D1F123600FB32BF /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		2B08DFC21D1F135F00FB32BF /* FISPrimeTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPrimeTimeTableViewController.h; sourceTree = "<group>"; };
+		2B08DFC31D1F135F00FB32BF /* FISPrimeTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPrimeTimeTableViewController.m; sourceTree = "<group>"; };
 		4D55491C1BC8520E001E3D77 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		726811F71923ECC5009F8F37 /* PrimeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		726811FA1923ECC5009F8F37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -125,6 +130,9 @@
 				7268120C1923ECC5009F8F37 /* Images.xcassets */,
 				4D55491C1BC8520E001E3D77 /* Launch Screen.storyboard */,
 				726812011923ECC5009F8F37 /* Supporting Files */,
+				2B08DFC01D1F123600FB32BF /* main.storyboard */,
+				2B08DFC21D1F135F00FB32BF /* FISPrimeTimeTableViewController.h */,
+				2B08DFC31D1F135F00FB32BF /* FISPrimeTimeTableViewController.m */,
 			);
 			path = PrimeTime;
 			sourceTree = "<group>";
@@ -250,6 +258,7 @@
 				4D55491D1BC8520E001E3D77 /* Launch Screen.storyboard in Resources */,
 				726812051923ECC5009F8F37 /* InfoPlist.strings in Resources */,
 				7268120D1923ECC5009F8F37 /* Images.xcassets in Resources */,
+				2B08DFC11D1F123600FB32BF /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B08DFC41D1F135F00FB32BF /* FISPrimeTimeTableViewController.m in Sources */,
 				726812071923ECC5009F8F37 /* main.m in Sources */,
 				7268120B1923ECC5009F8F37 /* FISAppDelegate.m in Sources */,
 			);
@@ -423,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = PRIME2000;
 				INFOPLIST_FILE = "PrimeTime/PrimeTime-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
@@ -437,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PrimeTime/PrimeTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = PRIME2000;
 				INFOPLIST_FILE = "PrimeTime/PrimeTime-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
